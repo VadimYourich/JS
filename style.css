@@ -1,12 +1,13 @@
 h1 {
-    color: red;
+    color: rgb(133, 52, 52);
     font-family: 'Teddy Bear';
+    font-size: 3rem;
 }
 body {
     background-color: rgb(116, 233, 233);
 }
 h2 {
-    color: rgb(85, 190, 120);
+    color: rgb(36, 36, 134);
 }
 a {
     color: rgb(152, 24, 163);
@@ -14,7 +15,7 @@ a {
 .big_text {
 font-size: 2rem;
 font-family: 'Teddy Bear';
-color: blue;}
+color: rgb(36, 36, 134);}
 @font-face {
 	font-family: 'Teddy Bear';
 	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
