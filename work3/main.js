@@ -75,12 +75,12 @@ if (product == "Мандарины") {
  
 function getMaxEvenElement(arr) {
     let result = arr[0];
-    for (let i = 0; i < arr.length; i+=2) {
+    for (let i = 2; i < arr.length; i+=2) {
         if (result < arr[i]) {
             result = arr[i];
         }
-        return result;
     }
+    return result;
 }
  
 console.log(getMaxEvenElement([5, 7, -1, 12, 3, 0])); // 5
