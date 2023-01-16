@@ -58,7 +58,7 @@ if (product == "Мандарины") {
 }
 </script>*/
 
-// const product = prompt("Введите фрукт:");
+// const product = prompt("Введите продукт:");
 
 // if (product == 'Мандарины') {
 //     alert('Мандарины стоят 100 руб/кг.');
@@ -84,4 +84,4 @@ function getMaxEvenElement(arr) {
 }
  
 console.log(getMaxEvenElement([5, 7, -1, 12, 3, 0])); // 5
-console.log(getMaxEvenElement([4, -12, 29, 6, 31, 92, -50])); // 31
+console.log(getMaxEvenElement([7, -12, 29, 6, 31, 92, -50])); // 31
