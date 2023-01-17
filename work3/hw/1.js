@@ -12,10 +12,11 @@
 // Советую округлить значение после рассчетов, так как в некоторых случаях может 
 // получиться "длинная дробь".
 
-const c = Number.parseFloat(prompt("Введите температуру в градусах Цельсия:"))
+const celsius = Number.parseFloat(prompt("Введите температуру в градусах Цельсия:"))
 function transform(c) {
-    f = (9 / 5) * c + 32;
-    //return Math.round(f*100)/100
-    return (f.toFixed(2));
+    //let fahrenheit = (9 / 5) * c + 32;
+    return (9 / 5) * c + 32;
+    //return Math.round(fahrenheit*100)/100
+    //return (fahrenheit.toFixed(2));
 }
-alert(`Цельсий: ${c}, Фаренгейт: ${transform(c)}`)
+alert(`Цельсий: ${celsius}, Фаренгейт: ${transform(celsius).toFixed(2)}`)
